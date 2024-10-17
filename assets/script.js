@@ -1,5 +1,5 @@
 
-const email_listEl = document.querySelector('.email_list')
+let email_listEl = document.querySelector('.email_list')
 const buttonEl = document.querySelector('.btn')
 
 
