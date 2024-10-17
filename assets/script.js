@@ -1,5 +1,6 @@
 
 const email_listEl = document.querySelector('.email_list')
+const buttonEl = document.querySelector('.btn')
 
 
 for (let i = 0; i < 10; i++) {
@@ -12,3 +13,9 @@ for (let i = 0; i < 10; i++) {
         .catch(error => console.error('Errore:', error));
 }
 
+
+buttonEl = document.addEventListener("click", function(){
+  
+}
+   
+  );
